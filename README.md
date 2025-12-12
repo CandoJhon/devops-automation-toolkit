@@ -26,12 +26,12 @@ graph TD
     C -->|Reads & uploads| E[Backup to S3 Script<br/>Compress & upload]
     E -->|Uploads .tar.gz| F[(AWS S3 Bucket<br/>backups/)]
     
-    style A fill:#e1f5ff
-    style B fill:#d4edda
-    style C fill:#fff3cd
-    style D fill:#f8d7da
-    style E fill:#d1ecf1
-    style F fill:#ffeaa7
+    style A fill:#e1f5ff,color:#ffffff
+    style B fill:#d4edda,color:#ffffff
+    style C fill:#fff3cd,color:#ffffff
+    style D fill:#f8d7da,color:#ffffff
+    style E fill:#d1ecf1,color:#ffffff
+    style F fill:#ffeaa7,color:#ffffff
     
     subgraph Docker Compose
     A
