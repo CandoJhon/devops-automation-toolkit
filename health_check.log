@@ -1,0 +1,44 @@
+[2025-12-12 01:33:52] [ERROR] ✗ Test API - Timeout after 5s
+[2025-12-12 01:33:58] [WARNING] ✗ Test Error - Expected 200, got 500
+[2025-12-12 01:34:04] [ERROR] ✗ Slow Endpoint - Timeout after 1s
+[2025-12-12 01:34:04] [ERROR] ✗ Invalid - Error: Failed to parse: http://localhost:99999/nonexistent
+[2025-12-12 01:39:31] [ERROR] ✗ Test API - Timeout after 5s
+[2025-12-12 01:39:37] [WARNING] ✗ Test Error - Expected 200, got 500
+[2025-12-12 01:39:44] [ERROR] ✗ Slow Endpoint - Timeout after 1s
+[2025-12-12 01:39:44] [ERROR] ✗ Invalid - Error: Failed to parse: http://localhost:99999/nonexistent
+[2025-12-12 01:47:51] [ERROR] ✗ Test API - Timeout after 5s
+[2025-12-12 01:48:01] [ERROR] ✗ Test Error - Timeout after 5s
+[2025-12-12 01:48:07] [ERROR] ✗ Slow Endpoint - Timeout after 1s
+[2025-12-12 01:48:07] [ERROR] ✗ Invalid - Error: Failed to parse: http://localhost:99999/nonexistent
+[2025-12-12 01:49:25] [WARNING] ✗ Test API - Expected 200, got 503
+[2025-12-12 01:49:30] [WARNING] ✗ Test Error - Expected 200, got 503
+[2025-12-12 01:49:35] [WARNING] ✗ Slow Endpoint - Expected 200, got 503
+[2025-12-12 01:49:35] [ERROR] ✗ Invalid - Error: Failed to parse: http://localhost:99999/nonexistent
+[2025-12-12 01:52:04] [WARNING] ✗ Test API - Expected 200, got 503
+[2025-12-12 01:52:09] [WARNING] ✗ Test Error - Expected 200, got 503
+[2025-12-12 01:52:15] [WARNING] ✗ Slow Endpoint - Expected 200, got 503
+[2025-12-12 01:52:15] [ERROR] ✗ Invalid - Error: Failed to parse: http://localhost:99999/nonexistent
+[2025-12-12 01:52:58] [WARNING] ✗ Test API - Expected 200, got 503
+[2025-12-12 01:53:03] [WARNING] ✗ Test Error - Expected 200, got 503
+[2025-12-12 01:53:09] [ERROR] ✗ Slow Endpoint - Timeout after 1s
+[2025-12-12 01:53:09] [ERROR] ✗ Invalid - Error: Failed to parse: http://localhost:99999/nonexistent
+[2025-12-12 11:53:18] [WARNING] ✗ Test API - Expected 200, got 503
+[2025-12-12 11:53:23] [WARNING] ✗ Test Error - Expected 200, got 503
+[2025-12-12 11:53:28] [WARNING] ✗ Slow Endpoint - Expected 200, got 503
+[2025-12-12 11:53:28] [ERROR] ✗ Invalid - Error: Failed to parse: http://localhost:99999/nonexistent
+[2025-12-12 11:58:21] [WARNING] ✗ Test API - Expected 200, got 503
+[2025-12-12 11:58:26] [WARNING] ✗ Test Error - Expected 200, got 503
+[2025-12-12 11:58:31] [WARNING] ✗ Slow Endpoint - Expected 200, got 503
+[2025-12-12 11:58:31] [ERROR] ✗ Invalid - Error: Failed to parse: http://localhost:99999/nonexistent
+[2025-12-12 12:06:51] [INFO] ✓ Test API - Status: 200 - Response time: 0.03ms
+[2025-12-12 12:06:51] [WARNING] ✗ Test Error - Expected 200, got 500
+[2025-12-12 12:06:51] [ERROR] ✗ Slow Endpoint - Timeout after 1s
+[2025-12-12 12:06:51] [ERROR] ✗ Invalid - Connection refused
+[2025-12-12 12:07:17] [INFO] ✓ Test API - Status: 200 - Response time: 0.04ms
+[2025-12-12 12:07:17] [WARNING] ✗ Test Error - Expected 200, got 500
+[2025-12-12 12:07:17] [ERROR] ✗ Slow Endpoint - Timeout after 1s
+[2025-12-12 12:07:17] [ERROR] ✗ Invalid - Connection refused
+[2025-12-12 12:09:24] [INFO] ✓ Test API - Status: 200 - Response time: 0.03ms
+[2025-12-12 12:09:24] [WARNING] ✗ Test Error - Expected 200, got 500
+[2025-12-12 12:09:24] [ERROR] ✗ Slow Endpoint - Timeout after 1s
+[2025-12-12 12:09:24] [ERROR] ✗ Invalid - Connection refused

@@ -1,0 +1,35 @@
+
+services:
+  # Flask application service
+  library-api:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    container_name: library-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./app/logs:/app/logs
+    networks:
+      - devops-network
+    restart: unless-stopped
+
+  # Health check monitor (runs every 60 seconds)
+  health-monitor:
+    image: python:3.11-slim
+    container_name: health-monitor
+    working_dir: /scripts
+    volumes:
+      - ./scripts:/scripts
+    command: >
+      sh -c "pip install -q requests &&
+             python health_check.py --continuous 60"
+    depends_on:
+      - library-api
+    networks:
+      - devops-network
+    restart: unless-stopped
+
+networks:
+  devops-network:
+    driver: bridge
