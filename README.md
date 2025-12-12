@@ -17,7 +17,7 @@ This project demonstrates practical implementation of key DevOps tools:
 - **CI/CD** with GitHub Actions
 
 ### Interactive View (Mermaid)
-
+```mermaid
 graph TD
     A[Library Management API<br/>Flask - Port 8000] -->|HTTP Requests| B[Health Check Monitor<br/>Every 60s]
     A -->|Writes logs| C[/app/logs/app.log, health_check.log/]
@@ -40,6 +40,7 @@ graph TD
     D
     E
     end
+```
 
 ## Components
 
